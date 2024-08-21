@@ -84,7 +84,8 @@ services = {
       };
       onStart = {
           thing = ''
-          export PATH="$PATH:/home/user/.pub-cache/bin"
+          export HOME=/home/user
+          export PATH="$PATH":"$HOME/.pub-cache/bin"
           '';
       };
       
