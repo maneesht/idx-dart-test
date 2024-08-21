@@ -26,6 +26,7 @@ services = {
   # Sets environment variables in the workspace
   env = {
     POSTGRESQL_CONN_STRING = "postgresql://user:mypassword@localhost:5432/dataconnect?sslmode=disable";
+        PATH = ["/home/user/.pub-cache/bin"];
   };
   idx = {
     # Search for the extensions you want on https://open-vsx.org/ and use "publisher.id"
