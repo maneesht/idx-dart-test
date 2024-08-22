@@ -21,6 +21,7 @@ services = {
     pkgs.jdk17
     pkgs.unzip
     pkgs.flutter
+    pkgs.grpc_cli
   ];
   
   # Sets environment variables in the workspace
